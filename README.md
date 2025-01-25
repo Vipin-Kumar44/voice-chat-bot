@@ -16,22 +16,10 @@ speech_recognition for recognizing voice commands
 googletrans for language translation
 Installation:
 Clone the repository:
-
-bash
-Copy
-Edit
 git clone <repository_url>
 Install the required libraries:
-
-bash
-Copy
-Edit
 pip install nltk pyttsx3 speechrecognition googletrans==4.0.0-rc1
 Download the necessary NLTK datasets:
-
-python
-Copy
-Edit
 import nltk
 nltk.download('punkt')
 nltk.download('averaged_perceptron_tagger')
@@ -39,15 +27,9 @@ nltk.download('vader_lexicon')
 nltk.download('stopwords')
 How to Run:
 Once everything is set up, simply run the script:
-bash
-Copy
-Edit
 python voice_assistant_chatbot.py
 The assistant will start by greeting you and asking how your day is going. After that, you can chat with the assistant, and it will respond based on your inputs.
 Example Interaction:
-vbnet
-Copy
-Edit
 You: Hi
 Assistant: Hello! How's your day?
 You: It's going great!
